@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Supinha</title>
+    <script
+      type="text/javascript"
+      src="https://counter3.stat.ovh/private/counter.js?c=prmdgx91x71z4j6jba86s53j3m2q7k36&down=async"
+      async
+    ></script>
+  </head>
+
+  <body class="normal">
+    <div id="sfcprmdgx91x71z4j6jba86s53j3m2q7k36"></div>
+    <noscript>
+      <a href="https://www.webcontadores.com" title="contadores de visita"
+        ><img
+          src="https://counter3.stat.ovh/private/webcontadores.php?c=prmdgx91x71z4j6jba86s53j3m2q7k36"
+          border="0"
+          title="contadores de visita"
+          alt="contadores de visita" /></a
+    ></noscript>
+
+    <div id="main">
+      <h1 class="h1normal" id="h1mano">
+        Como foi seu dia? Seja bem-vindo ao nosso diário publico aqui nós te
+        amamos S2
+      </h1>
+      <div id="Imges">
+        <img
+          id="ImgEstupinha"
+          class="imgnormal"
+          src="./estopinha.jpeg"
+          alt="Photo by @lckonderatjws para melhor companheira que um ser humano pode ter. 06/07/2019"
+        />
+      </div>
+
+      <div id="resto">
+        <div id="dimensionamentoDoChat">
+          <iframe
+            id="chat"
+            src="https://www6.cbox.ws/box/?boxid=846240&boxtag=2eX0tA"
+            allowtransparency="yes"
+            allow="autoplay"
+            frameborder="0"
+            marginheight="0"
+            marginwidth="0"
+            scrolling="auto"
+          ></iframe>
+        </div>
+
+        <footer id="footer">
+          <p id="paF">Fale Conosco:</p>
+          <a
+            id="aF"
+            href="mailto:luankondratjwsgamer@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            >E-mail</a
+          >
+        </footer>
+      </div>
+    </div>
+
+    <script>
+      var h1 = document.querySelector("#h1mano");
+      var img = document.querySelector("#ImgEstupinha");
+      if (window.innerWidth <= 1026) {
+        document.body.className = "responsivo";
+      }
+
+      if (window.innerWidth <= 500) {
+        h1.className = "h1responsivo";
+        img.className = "imgresponsivo";
+      }
+
+      function ResponsiveSite() {
+        window.innerWidth <= 1026
+          ? (document.body.className = "responsivo")
+          : (document.body.className = "normal");
+
+        window.innerWidth <= 500
+          ? (h1.className = "h1responsivo")
+          : (h1.className = "h1normal");
+
+        window.innerWidth <= 500
+          ? (img.className = "imgresponsivo")
+          : (img.className = "imgnormal");
+      }
+      window.addEventListener("resize", ResponsiveSite);
+    </script>
+  </body>
+</html>
