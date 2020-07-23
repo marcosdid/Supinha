@@ -12,7 +12,7 @@
     ></script>
   </head>
 
-  <body class="normal">
+  <body>
     <div id="sfcprmdgx91x71z4j6jba86s53j3m2q7k36"></div>
     <noscript>
       <a href="https://www.webcontadores.com" title="contadores de visita"
@@ -24,15 +24,14 @@
     ></noscript>
 
     <div id="main">
-      <h1 class="h1normal" id="h1mano">
+      <h1 class="title">
         Como foi seu dia? Seja bem-vindo ao nosso diário publico aqui nós te
         amamos S2
       </h1>
       <div id="Imges">
         <img
-          id="ImgEstupinha"
-          class="imgnormal"
-          src="./estopinha.jpeg"
+          class="ImgEstupinha"
+          src="./assents/estopinha.jpeg"
           alt="Photo by @lckonderatjws para melhor companheira que um ser humano pode ter. 06/07/2019"
         />
       </div>
@@ -63,33 +62,5 @@
         </footer>
       </div>
     </div>
-
-    <script>
-      var h1 = document.querySelector("#h1mano");
-      var img = document.querySelector("#ImgEstupinha");
-      if (window.innerWidth <= 1026) {
-        document.body.className = "responsivo";
-      }
-
-      if (window.innerWidth <= 500) {
-        h1.className = "h1responsivo";
-        img.className = "imgresponsivo";
-      }
-
-      function ResponsiveSite() {
-        window.innerWidth <= 1026
-          ? (document.body.className = "responsivo")
-          : (document.body.className = "normal");
-
-        window.innerWidth <= 500
-          ? (h1.className = "h1responsivo")
-          : (h1.className = "h1normal");
-
-        window.innerWidth <= 500
-          ? (img.className = "imgresponsivo")
-          : (img.className = "imgnormal");
-      }
-      window.addEventListener("resize", ResponsiveSite);
-    </script>
   </body>
 </html>
